@@ -22,12 +22,12 @@ let filme = {
     lancamento: 2012,
     nota: 8.5,
 }
-if (nota<= 4)
-    console.log("O filme possui uma nota considerada baixa.")
-if(nota>4&&<7)
-    console.log ("O filme é considerado razoavel!.")
-if(nota>7&&
-    console.log ("O filme é muito bom!.")
+if (filme.nota<= 4)
+    console.log("O filme possui uma nota considerada baixa")
+if(filme.nota>4&&filme.nota<7)
+    console.log ("O filme é considerado razoavel!")
+if(filme.nota>7)
+    console.log ("O filme é muito bom!")
 
 
 // 5) Utilização de if-else
